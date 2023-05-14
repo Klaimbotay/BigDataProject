@@ -1,0 +1,1 @@
+psql -U postgres -d project -f /sql/db.sql
