@@ -1,0 +1,115 @@
+{
+  "type" : "record",
+  "name" : "air_quality",
+  "doc" : "Sqoop import of air_quality",
+  "fields" : [ {
+    "name" : "id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "id",
+    "sqlType" : "4"
+  }, {
+    "name" : "year",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "year",
+    "sqlType" : "4"
+  }, {
+    "name" : "month",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "month",
+    "sqlType" : "4"
+  }, {
+    "name" : "day",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "day",
+    "sqlType" : "4"
+  }, {
+    "name" : "hour",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "hour",
+    "sqlType" : "4"
+  }, {
+    "name" : "pm2_5",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "pm2.5",
+    "sqlType" : "7"
+  }, {
+    "name" : "pm10",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "pm10",
+    "sqlType" : "7"
+  }, {
+    "name" : "so2",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "so2",
+    "sqlType" : "7"
+  }, {
+    "name" : "no2",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "no2",
+    "sqlType" : "7"
+  }, {
+    "name" : "co",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "co",
+    "sqlType" : "7"
+  }, {
+    "name" : "o3",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "o3",
+    "sqlType" : "7"
+  }, {
+    "name" : "temp",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "temp",
+    "sqlType" : "7"
+  }, {
+    "name" : "pres",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "pres",
+    "sqlType" : "7"
+  }, {
+    "name" : "dewp",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "dewp",
+    "sqlType" : "7"
+  }, {
+    "name" : "rain",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "rain",
+    "sqlType" : "7"
+  }, {
+    "name" : "wd",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "wd",
+    "sqlType" : "12"
+  }, {
+    "name" : "wspm",
+    "type" : [ "null", "float" ],
+    "default" : null,
+    "columnName" : "wspm",
+    "sqlType" : "7"
+  }, {
+    "name" : "station",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "station",
+    "sqlType" : "12"
+  } ],
+  "tableName" : "air_quality"
+}
